@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lofin form </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="test.js" defer></script>
+</head>
+<body>
+    <article class="container">
+        <div class="block">
+            <section class="block_item block-item">
+                <h2 class="block-item_tittle">У вас уже есть аккаунт?</h2>
+                <button id="signIn" class="block-item_btn">Войти</button>
+            </section>
+            <section class="block_item block-item">
+                <h2 class="block-item_tittle">У вас нет акканута?</h2>
+                <button id="signUp" class="block-item_btn">Зарегистрироваться</button>
+            </section>    
+        </div>
+
+        <div class="form-box">
+            <form class="form formLogIn">
+                <h3 class="form_tittle">Вход</h3>
+                <p><input type="text" class="text_input" placeholder="Логин"></p>
+                <p><input type="password" class="text_input" placeholder="Пароль"></p>
+                <p><button type="submit" class="form_btn">Войти</button></p>
+                <p><a href="" class="form_forgot">Восстановить пароль</a></p> 
+            </form>
+
+            <form class="form formRegistration">
+                <h3 class="form_tittle">Регистрация</h3>
+                <p><input type="text" class="text_input" placeholder="Логин"></p>
+                <p><input type="email" class="text_input" placeholder="Email"></p>
+                <p><input type="password" class="text_input" placeholder="Пароль"></p>
+                <p><input type="password" class="text_input" placeholder="Повторите пароль"></p>
+                <p><button type="submit" class="form_btn redButton">Зарегистрироваться</button></p>
+            </form>
+        </div>
+
+    </article>
+</body>
+</html>
